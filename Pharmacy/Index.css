@@ -1,3 +1,5 @@
+/* Styles for Index.html */
+/* Navigation Menu related styles */
 .menu{
     position: -webkit-sticky;
     position: sticky;
@@ -46,6 +48,7 @@
     background-color: black;
     color: white;
 }
+/* Image animation */
 .slides{
     border: 2px solid steelblue;
     position: relative;
@@ -85,11 +88,11 @@
     25%{opacity: 0;}
     85%{opacity: 0;}
 }
+/* e-commerce/produxt listing */
 .covidCare, .diabetCare {
     margin: 10px;
     overflow-x: auto;
     white-space: nowrap;
-    overflow-x: scroll;
 }
 .product{
     position: relative;
@@ -123,13 +126,11 @@
     padding: 0.5% 0;
     margin: 3px 3px;
 }
+.product button:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+}
 .product button:active{
     background-color: rgb(250, 234, 230);
     border: 1px solid rgb(0, 255, 76);
-}
-.product button:hover{
-    cursor: pointer;
-    width: 96.5%;
-    margin: 3px 0;
-    height: 1.5em;
 }

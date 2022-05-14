@@ -1,3 +1,4 @@
+/* Styles shared by Index.html & Lab-Confirmation.html */
 * {
     box-sizing: border-box;
 }
@@ -12,12 +13,14 @@ body{
     color: white;
     font-size: 1.3em;
 }
+/* Foorter */
 .rights {
     padding: 0.1em;
     text-align: center;
     background-color: black;
     color: white;
 }
+/* Lab-Confirmation styles */
 .confirm{
     width: 100%;
     height: 400px;
